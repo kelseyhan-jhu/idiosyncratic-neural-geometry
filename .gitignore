@@ -1,0 +1,38 @@
+cat > .gitignore << EOF
+# Project specific
+results/
+figures/
+notebooks/figures/
+logs/
+*.out
+*.err
+
+# Python
+__pycache__/
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data
+*.pkl
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
